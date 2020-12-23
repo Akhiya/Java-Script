@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>SIGN UP</title>
+        <link rel="stylesheet" href="Pro1stPage_Form.css">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+        <script>
+            function disableSubmit() {
+             document.getElementById("btn").disabled = true;
+            }
+           
+             function activateButton(element) {
+           
+                 if(element.checked) {
+                   document.getElementById("btn").disabled = false;
+                  }
+                  else  {
+                   document.getElementById("btn").disabled = true;
+                 }
+           
+             }
+           </script>
+</head>
+<body onload="disableSubmit()">
+ 
+    <header>
+        <img src="invento.jpg" id="logo" alt="">
+        <p id="toll"><i class="fa fa-phone" aria-hidden="true"></i>&nbsp;Help-Line : 1800-1122</p>
+    </header>
+    
+    <div id="con">
+        <p id="h2"> <b> Welcome To INVENTO...<br> </b><i style="color: rgb(29, 28, 28);font-size:22px;"> Come On and Create An Account</i> </p> 
+        <form onsubmit="return formValidate()" action="http://www.facebook.com">
+            
+            <i class="fa fa-user-circle fa-lg" aria-hidden="true" id="fnicon"></i>
+   <input type="text" placeholder="       First Name" size="30" id="fn"><br>
+   <span id="fnmsg" style="color:rgb(172, 0, 0)"></span><br> <br>
+
+   <i class="fa fa-user-circle fa-lg" aria-hidden="true" id="fnicon"></i>
+    <input type="text" placeholder="       Last Name" id="ln" size="30"> <br>
+    <span id="lnmsg" style="color:rgb(172, 0, 0)"></span><br><br>
+
+    <i class="fa fa-mobile fa-2x" aria-hidden="true"></i>
+    <input type="text" placeholder="       Phone Number" id="pn" size="30"> <br>
+    <span id="pnmsg" style="color:rgb(172, 0, 0)"></span><br><br>
+
+   
+     <div id="gender"> Gender : male <input type="radio"  name="gender"> female<input type="radio"  name="gender"></div><br>
+     <span id="genmsg" style="color:rgb(172, 0, 0)"></span>
+
+     <i class="fa fa-envelope" aria-hidden="true"></i>
+     <input type="email" placeholder="       Email" id="em" size="30"> <br>
+     <span id="emmsg" style="color:rgb(172, 0, 0)"></span><br><br>
+
+     <i class="fa fa-unlock-alt fa-lg" aria-hidden="true"></i>
+     <input type="password" placeholder="       Password" id="pas" size="30"><br>
+     <span id="pasmsg" style="color:rgb(172, 0, 0)"></span><br><br>
+
+     <i class="fa fa-unlock-alt fa-lg" aria-hidden="true"></i>
+     <input type="password" placeholder="       Confirm Password" id="cpas" size="30"> <br>
+     <span id="cpasmsg" style="color:rgb(172, 0, 0)"></span>
+    <p id="terms"> <input type="checkbox" name="terms" id="terms" onchange="activateButton(this)" style="font-size: 15px;text-align: center;">  I Agree with the websites <a href="www.fb.com">Terms & Condition</a></p>
+     <input type="submit" id="btn" value="SIGN UP" style="width:110px">
+     <br> <span> <i style="color: black;"> Already a member?</i> <a href="http://127.0.0.1:5500/PROJECT/Pro1stPage_Form.html" style="font-size:18px ;color: rgb(92, 4, 33);text-decoration: none;"> <b>Log in</b> </a></span>
+    </form>
+    </div><br>
+    <footer id="footer">Copyright 1999-2020 by Refsnes Data. All Rights Reserved.</footer>
+    <script src="FormValidate.js"></script>
+</body>
+</html>

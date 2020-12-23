@@ -1,0 +1,78 @@
+table,td,tr
+{
+    border:double;
+    border-collapse: collapse;
+    width: 1490px;
+    text-align: center;
+}
+
+#body
+{
+  background-image: url("blacknwhite.jpg");
+  background-size: cover;
+}
+
+#fieldset
+{
+    background-color: rgb(145, 141, 136);
+    opacity: .7;
+    width: 500px;
+}
+header{
+    height: 60px;
+    background-image: url("747461.jpg");
+    background-size: cover;
+   
+    
+}
+#logo
+{
+    height: 60px;
+    width: 200px;
+   
+}
+#logoimg{
+    height:60px;
+  width: 170px;
+  margin-left: 100px;
+}
+#headline{
+    
+    margin-top: -44px;
+    font-size: 30px;
+    font-weight: bolder;
+    color: rgb(206, 198, 200);
+    font-size: 30px;
+    text-align: center;
+    font-style: italic;
+    font-family: "apple-system";
+}
+
+nav{
+    height:50px;
+    background-image: url("bank17.jpeg");
+
+}
+.nav-area{
+    list-style: none;
+    height: 30px;
+    align-content: center;
+    float: left;
+    padding-top: 15px;
+
+}
+.nav-area li {
+    display: inline-block;
+    margin-top: -50px;
+    
+}
+.nav-area li a{
+    color:black;
+    text-decoration: solid;     
+    padding :20px  30px;
+    font-family:"Times New Roman";
+    font-size: 18px;
+    text-align: right;
+   margin-top: -100px;
+
+}

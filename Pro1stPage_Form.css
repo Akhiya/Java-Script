@@ -1,0 +1,165 @@
+#con{
+    background-color: rgb(32, 110, 112);
+    opacity: 0.8;
+     border:  rgb(47, 47, 48);
+     text-align: center;
+     margin-left: 995px;
+     margin-right: 50px;
+     padding-top: 5px;
+     padding-bottom: 20px;
+     margin-top: -10px;
+     border-radius: 10px;
+}
+#mar{
+    margin-top: -50px;
+}
+
+#fn{
+   height: 30px;
+   font-size: 16px;
+   border-radius: 5px;
+}
+
+#ln{
+    height: 30px;
+    font-size: 16px;
+    border-radius: 5px;
+ }
+
+ #pn{
+    height: 30px;
+    font-size: 16px;
+    border-radius: 5px;
+ }
+
+ #em{
+    height: 30px;
+    font-size: 16px;
+    border-radius: 5px;
+ }
+
+ #pas{
+    height: 30px;
+    font-size: 16px;
+    border-radius: 5px;
+ }
+
+ #cpas{
+    height: 30px;
+    font-size: 16px;
+    border-radius: 5px;
+ }
+
+ #btn{
+     height: 40px;
+     background-color:rgb(19, 22, 24);
+     border:rgb(23, 33, 39) ;
+     color: thistle;
+     font-size: 16px;
+     border-radius: 8px;
+ }
+
+ #h2{
+  font-size: 30px;
+  font-family:Comic Sans MS;
+ }
+
+#toll{
+    font-size: 22px;
+    margin-left: 1190px;
+    margin-top: -60px;
+    font-weight: bolder;
+    padding-left: 10px;
+    margin-right: 60px;
+    border: solid;
+}
+
+ body{
+     
+     background-image: url(bank55.jpg);
+    background-repeat: no-repeat;
+    align-content: center;
+ }
+
+#logo
+{
+  width: 300px;
+
+}
+
+#footer
+{
+    text-align: center;
+    color: rgb(100, 99, 95);
+    font-size: 13px;
+}
+ 
+ #span{
+     margin-top:-100px;
+ }
+
+ #h1{
+     color: rgb(31, 29, 27);
+     font-size: 46px;
+     text-align: center;
+    margin-top: -5px;
+     font-family:Book Antiqua;
+     background-image: repeating-radial-gradient(white,rgb(6, 122, 126),black)
+ }
+
+ #hr
+ {
+     margin-top: -30px;
+
+ }
+
+ #terms{
+     text-align: left;
+     margin-left: 25px;
+     color: black;
+     font-weight: bolder;
+
+ }
+
+ #fnmsg{
+     margin-right: 150px;
+     font-weight: bold;
+ }
+
+ 
+ #lnmsg{
+    margin-right:90px;
+    font-weight: bold;
+}
+
+#pnmsg{
+    margin-right:70px;
+    font-weight: bold;
+}
+
+#emmsg{
+    margin-right: 150px;
+    font-weight: bold;
+}
+
+#pasmsg{
+    margin-right: 10px;
+    font-weight: bold;
+}
+
+#cpasmsg{
+    margin-right: 50px;
+    font-weight: bold;
+}
+
+#gender
+{
+    font-size: 20px;
+    margin-top: -20px;
+    padding-right: 50px;
+}
+
+#gen{
+    padding-right: 280px;
+}
+
